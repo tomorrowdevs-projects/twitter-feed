@@ -1,34 +1,14 @@
- Create an onboarding process using the attached mockup file.
+Create a Twitter Feed Page
 ===============================
-
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
-
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
-- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
-
-Level 1:
-----------------
-- Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
-
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+1. Select a Twitter account by input his name
+2. Retrieve the feed through Twitter APIs
+3. Show the contents, with Images, Videos, links, animated Gifs
+4. Keep the feed updated without reloading the page
+5. Repeat from point 1 adding multiple Twitter accounts
+6. Sort all the contents from all the accounts sorted by date
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
